@@ -1,0 +1,10 @@
+'''
+6. write a program that reads a number N and print 10 numbers after N 
+'''
+
+num = int(input("Enter the number: "))
+count = 0 
+while(count < 10):
+    num+=1 
+    print(num)
+    count+=1

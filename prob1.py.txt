@@ -1,0 +1,16 @@
+'''
+1.print N integers 
+sample INput 
+5 
+output:
+1
+2
+3 
+'''
+
+num = int(input("Enter the number: "))
+count = 1 
+while(count < num-1):
+    print(count)
+    count+=1 
+    s

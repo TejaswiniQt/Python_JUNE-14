@@ -1,0 +1,27 @@
+'''
+9. Read N inputs 
+
+the first line of input will contain a positive integer, N
+the following N lines contain an integer in each line.
+
+input: 3
+	 8
+	 11
+	 25
+output:
+
+	8
+	11
+	25
+'''
+
+num = int(input("Enter the number: "))
+count = 1 
+list1 = []
+while(count < num+1):
+    N = int(input("Enter the number: "))
+    list1.append(N)
+    count+=1
+count = 1
+for i in list1:
+    print(i)

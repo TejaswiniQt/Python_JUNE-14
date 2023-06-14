@@ -1,0 +1,17 @@
+'''
+2.write a program that reads a N and print natural numbers from 1 
+
+sample input:
+3 
+output:
+1 
+2 
+3
+'''
+
+num = int(input("Enter the number: "))
+count = 1 
+while(count < num+1):
+    print(count)
+    count+=1 
+    

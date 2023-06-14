@@ -1,0 +1,18 @@
+'''
+5.given two integers M and N write a program to print a solid rectangle pattern of rows and N column using the asterisk character(*) 
+
+Input:
+2
+3 
+
+output 
+* * *
+* * *
+'''
+
+row = int(input("Enter the number of rows: "))
+col = int(input("Enter the number of colums: "))
+count = 1 
+while(count < row+1):
+    print("* "*col)
+    count+=1

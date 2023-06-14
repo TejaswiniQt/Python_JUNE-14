@@ -1,0 +1,17 @@
+'''
+3.Average of the N number 
+
+Input:
+4 
+out:
+2.5 
+'''
+
+num = int(input("Enter the number: "))
+count = 1 
+sum_num = 0
+while(count < num+1):
+    sum_num = sum_num + count
+    count+=1
+avg = sum_num / num 
+print(avg)

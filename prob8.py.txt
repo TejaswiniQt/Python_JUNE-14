@@ -1,0 +1,19 @@
+'''
+8.solid right angled Triangle 
+
+given an interger number N as input write a program to print the right-angled triangle pattern of n lines using asterisk(*) character.
+
+
+input: 4
+output:
+*
+* *
+* * *
+* * * *
+'''
+
+num = int(input("Enter the number: "))
+count = 1 
+while(count < num+1):
+    print("* "*count)
+    count+=1
